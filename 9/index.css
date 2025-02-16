@@ -1,0 +1,577 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poiret One', sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    background-image: url(image/bg1.jpg);
+
+}
+.sub{
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.logo{
+    height: 100px;
+    width: 17%;
+    /* border: 1px solid black; */
+    float: left;
+}
+.logo #logo{
+    cursor: pointer;
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 50px;
+    line-height: 100px;
+}
+nav{
+    margin-left: 250px;
+    float: left;
+    height: 100px;
+    width: 35%;
+    /* border: 1px solid black; */
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    line-height: 100px;
+    font-size: 20px;
+    transition: 1s;
+}
+nav ul li a:hover{
+    color: aqua;
+}
+.logo1{
+    float: right;
+    height: 100px;
+    width: 10%;
+    /* border: 1px solid black; */
+}
+#fb{
+    line-height: 100px;
+    font-size: 25px;
+    color: white;
+    transition: 1s;
+}
+#inta{
+    margin-left: 15px;
+    line-height: 100px;
+    font-size: 25px;
+    color: white;
+    transition: 1s;
+}
+#twi{
+    margin-left: 15px;
+    line-height: 100px;
+    font-size: 25px;
+    color: white;
+    transition: 1s;
+}
+#yt{
+    margin-left: 15px;
+    line-height: 100px;
+    font-size: 25px;
+    color: white;
+    transition: 1s;
+}
+#fb:hover{
+    transform: rotateY(180deg);
+}
+#inta:hover{
+    transform: rotateY(180deg);
+}
+#twi:hover{
+    transform: rotateY(180deg);
+}
+#yt:hover{
+    transform: rotateY(180deg);
+}
+.aa{
+    margin-top: 600px;
+    font-size: 25px;
+    text-align: center;
+    color: aliceblue;
+}
+.aaa{
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+}
+.a{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.a1{
+    height: 500px;
+    width: 450px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.a2{
+    margin-left: 50px;
+    height: 500px;
+    width: 500px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-top: 80px;
+    background-image: url(image/bg3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.a3{
+    margin-left: 50px;
+    height: 500px;
+    margin-top: 100px;
+    width: 300px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.a11{
+    height: 55%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.a12{
+    background-image: url(image/bg2.png);
+    height: 25%;
+    width: 30%;
+    /* border: 1px solid black; */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.a111{
+    font-size: 50px;
+}
+.a112{
+    font-size: 18px;
+}
+.a31{
+    height: 150px;
+    width: 200px;
+    /* border: 1px solid black; */
+    background-image: url(image/bg4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.a32{
+    font-size: 20px;
+}
+.a33{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 28px;
+}
+.a34{
+    padding: 15px;
+    background: transparent;
+    /* border: 1px solid black; */
+    width: 100px;
+    color: black;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+.a34:hover{
+    background: black;
+    color: white;
+}
+.b{
+    height: 1200px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.b1{
+    background-image: url(image/bg5.jpg);
+    float: left;
+    height: 600px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+.b2{
+    background-image: url(image/bg6.jpg);
+    float: left;
+    height: 600px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+.b3{
+    background-image: url(image/bg7.jpg);
+    float: left;
+    height: 600px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+.b4{
+    background-image: url(image/bg8.jpg);
+    float: left;
+    height: 600px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+.b5{
+    background-image: url(image/bg9.jpg);
+    float: left;
+    height: 600px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+.b6{
+    background-image: url(image/bg10.jpg);
+    float: left;
+    height: 600px;
+    width: 33.33%;
+    /* border: 1px solid black; */
+}
+.c{
+    height: 650px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.c1{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.c2{
+    margin-left: 300px;
+    float: left;
+    height: 500px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+.c21{
+    background-image: url(image/bg11.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.c22{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.c3{
+    margin-left: 30px;
+    float: left;
+    height: 500px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+.c31{
+    background-image: url(image/bg12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.c32{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.c4{
+    margin-left: 30px;
+    float: left;
+    height: 500px;
+    width: 450px;
+    /* border: 1px solid black; */
+}
+.c41{
+    background-image: url(image/bg13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.c42{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.c222{
+    font-size: 18px;
+}
+.d{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    border: 1px solid black;
+}
+.d1{
+    margin-top: 100px;
+    margin-left: 450px;
+    height: 300px;
+    width: 1000px;
+    /* border: 1px solid black; */
+}
+.d11{
+    color: aliceblue;
+    text-align: center;
+}
+.d12{
+    color: aliceblue;
+    line-height: 28px;
+    font-weight: bolder;
+    font-size: 22px;
+    text-align: center;
+}
+.d13{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-left: 450px;
+    background-image: url(image/bg14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.d14{
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+.e{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.e1{
+    font-size: 45px;
+    text-align: center;
+}
+.e2{
+    float: left;
+    margin-left: 300px;
+    height: 450px;
+    width: 400px;
+    border: 1px solid black;
+}
+.e3{
+    float: left;
+    margin-left: 30px;
+    height: 450px;
+    width: 400px;
+    border: 1px solid black;
+}
+.e4{
+    float: left;
+    margin-left: 30px;
+    height: 450px;
+    width: 400px;
+    border: 1px solid black;
+}
+.e21{
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+}
+.e31{
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+}
+.e41{
+    height: 30%;
+    width: 100%;
+    border: 1px solid black;
+}
+.e211{
+    margin-left: 130px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bolder;
+    border: none;
+    background-color: black;
+    width: 150px;
+    color: aliceblue;
+}
+.e212{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.e22{
+    text-align: center;
+    height: 70%;
+    width: 100%;
+    border: 1px solid black;
+}
+.e221{
+    font-size: 18px;
+    line-height: 35px;
+}
+.e222{
+    width: 350px;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid black;
+}
+.e222:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.f{
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+.f1{
+    transition: 0.5s;
+    float: left;
+    height: 400px;
+    width: 20%;
+    /* border: 1px solid black; */
+    background-image: url(image/bg15.jpg);
+}
+.f2{
+    transition: 0.5s;
+    float: left;
+    height: 400px;
+    width: 20%;
+    /* border: 1px solid black; */
+    background-image: url(image/bg16.jpg);
+}
+.f3{
+    transition: 0.5s;
+    float: left;
+    height: 400px;
+    width: 20%;
+    /* border: 1px solid black; */
+    background-image: url(image/bg17.jpg);
+}
+.f4{
+    transition: 0.5s;
+    float: left;
+    height: 400px;
+    width: 20%;
+    /* border: 1px solid black; */
+    background-image: url(image/bg18.jpg);
+}
+.f5{
+    transition: 0.5s;
+    float: left;
+    height: 400px;
+    width: 20%;
+    /* border: 1px solid black; */
+    background-image: url(image/bg19.jpg);
+}
+#inta1{
+    opacity: 0;
+    font-size: 35px;
+    margin-top: 200px;
+    margin-left: 46%;
+    color: white;
+    transition: 0.5s;
+}
+.f1:hover #inta1{
+    opacity: 1;
+}
+.f1:hover{
+    background-color: rgb(90, 90, 110);
+    background-blend-mode: overlay;
+}
+.f2:hover #inta1{
+    opacity: 1;
+}
+.f2:hover{
+    background-color: rgb(90, 90, 110);
+    background-blend-mode: overlay;
+}
+.f3:hover #inta1{
+    opacity: 1;
+}
+.f3:hover{
+    background-color: rgb(90, 90, 110);
+    background-blend-mode: overlay;
+}
+.f4:hover #inta1{
+    opacity: 1;
+}
+.f4:hover{
+    background-color: rgb(90, 90, 110);
+    background-blend-mode: overlay;
+}
+.f5:hover #inta1{
+    opacity: 1;
+}
+.f5:hover{
+    background-color: rgb(90, 90, 110);
+    background-blend-mode: overlay;
+}
+footer{
+    height: 500px;
+    width: 100%;
+    border: 1px solid #1e1e1e;
+    position: relative;
+    background-color: #1e1e1e;
+}
+.z1{
+    height: 50px;
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+    background-color: #1e1e1e;
+    margin-top: 100px;
+    margin-left: 350px;
+}
+.z2{
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    height: 300px;
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    background-color: #1e1e1e;
+}
+.z21{
+    font-size: 20px;
+    color: aliceblue;
+}
+.z3{
+    height: 350px;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 50px;
+    float: left;
+}
+.z4{
+    float: left;
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.z5{
+    float: left;
+    height: 350px;
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-left: 50px;
+}

@@ -1,0 +1,185 @@
+@media(max-width:980px)
+{
+    .sub{
+        width: 100%;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+        
+    .logo{
+        width: 25%;
+    }
+    .logo1{
+        width: 30%;
+    }
+    .b1{
+        width: 85%;
+    }
+    .b{
+        height: 500px;
+    }
+}
+@media(max-width:720px)
+{
+    .sub{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .logo{
+        width: 25%;
+    }
+    .logo1{
+        width: 30%;
+    }
+    .a{
+        height: 250px;
+    }
+    .a1{
+        height: 80%;
+        width: 80%;
+    }
+    .b1{
+        width: 100%;
+        /* flex-direction: column; */
+    }
+    .bb{
+        height: 500px;
+        width: 100%;
+    }
+    .b{
+        /* margin-top: 50px; */
+        height: 550px;
+    }
+    .f1{
+        width: 33%;
+    }
+    .f2{
+        width: 33%;
+    }
+    .f3{
+        width: 33%;
+    }
+    .f4{
+        width: 33%;
+    }
+    .f5{
+        width: 33%;
+    }
+    .f6{
+        width: 33%;
+    }
+    .f7{
+        width: 33%;
+    }
+    .f8{
+        width: 33%;
+    }
+    .f9{
+        width: 33%;
+    }
+    .f10{
+        width: 100%;
+    }
+    .z1{
+        width: 100%;
+    }
+    .dc{
+        flex-wrap: wrap;
+    }
+    .dc1{
+        text-align: center;
+        width: 100%;
+    }
+}
+@media(max-width:480px)
+{
+    .sub{
+        width: 100%;
+    }
+    nav{
+        display: none;
+    }
+    .logo{
+        width: 35%;
+    }
+    .logo1{
+        width: 45%;
+    }
+    .a1{
+        height: 90%;
+    }
+    .b1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .bb{
+        width: 100%;
+    }
+    .b{
+        margin-top: 50px;
+        height: 1500px;
+    }
+    .but2{
+        margin-left: 160px;
+    }
+    .f{
+        height: 500vh;
+        width: 100%;
+    }
+    .ff{
+        flex-direction: column;
+        height: 550vh;
+    }
+    .f1{
+        width: 100%;
+    }
+    .f2{
+        width: 100%;
+    }
+    .f3{
+        width: 100%;
+    }
+    .f4{
+        width: 100%;
+    }
+    .f5{
+        width: 100%;
+    }
+    .f6{
+        width: 100%;
+    }
+    .f7{
+        width: 100%;
+    }
+    .f8{
+        width: 100%;
+    }
+    .f9{
+        width: 100%;
+    }
+    .f10{
+        width: 100%;
+    }
+    .z1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .z11{
+        width: 100%;
+    }
+    .z12{
+        width: 100%;
+    }
+    .dc{
+        margin-top: 650px;
+        flex-wrap: wrap;
+    }
+    .dc1{
+        text-align: center;
+        width: 100%;
+    }
+
+}
