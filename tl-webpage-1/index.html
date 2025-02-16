@@ -1,0 +1,757 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="main11 z-50" id="dcyt">
+            <img src="/assets/preloader.gif" class="aaa1" alt="">
+    </div>
+
+    <header class="rain xl:h-[105vh] w-[100%] bg-[#1a1f2c] flex flex-wrap justify-center pb-[5vw]">
+
+        <img src="/assets/hero_bg.png" class="img1 hidden md:block md:absolute left-[0px] top-[0px]" alt="">
+        <img src="/assets/hero_animation_rotated.png"
+            class="img2 h-[46vw] hidden xl:block xl:absolute left-[50vw] top-[20px]" alt="">
+        <img src="/assets/bols.png" class="img3 h-[20vw] hidden 2xl:block xl:absolute left-[60vw] top-[220px]" alt="">
+        <img src="/assets/boll1.png" class="img4 h-[400px] hidden 2xl:block xl:absolute left-[20px] top-[27vw]" alt="">
+        <img src="/assets/boll2.png" class="img5 hidden 2xl:block xl:absolute left-[38vw] top-[30vw]" alt="">
+        <img src="/assets/hero_vector.png" class="img6 hidden xl:block xl:absolute left-[5vw] top-[12vw]" alt="">
+        <img src="/assets/hero_vector2.png" class="img7 h-[100px] hidden xl:block xl:absolute left-[40vw] top-[8vw]"
+            alt="">
+
+        <div class="sub z-40 w-[100%] xl:w-[70%] h-[80px] flex justify-evenly">
+            <div class="logo xl:w-[20%] flex justify-center items-center">
+                <img src="/assets/logo (1).png" alt="">
+            </div>
+            <nav class="h-[100%] w-[50%] hidden md:block">
+                <ul class="h-[100%] w-[100%] flex justify-evenly items-center">
+                    <li><a href=""
+                            class="text-[#0adab9] md:text-[10px] lg:text-[14px] xl:text-[18px] font-semibold font-sans">Home</a>
+                    </li>
+                    <li><a href=""
+                            class="text-[white] md:text-[10px] lg:text-[14px] xl:text-[18px] font-semibold hover:text-[#0adab9] font-sans">About</a>
+                    </li>
+                    <li><a href=""
+                            class="text-[white] md:text-[10px] lg:text-[14px] xl:text-[18px] font-semibold hover:text-[#0adab9] font-sans">Utility</a>
+                    </li>
+                    <li><a href=""
+                            class="text-[white] md:text-[10px] lg:text-[14px] xl:text-[18px] font-semibold hover:text-[#0adab9] font-sans">Rarity</a>
+                    </li>
+                    <li><a href=""
+                            class="text-[white] md:text-[10px] lg:text-[14px] xl:text-[18px] font-semibold hover:text-[#0adab9] font-sans">Roadmap</a>
+                    </li>
+                    <li><a href=""
+                            class="text-[white] md:text-[10px] lg:text-[14px] xl:text-[18px] font-semibold hover:text-[#0adab9] font-sans">
+                            Team</a></li>
+                    <li><a href=""
+                            class="text-[white] md:text-[10px] lg:text-[14px] xl:text-[18px] font-semibold hover:text-[#0adab9] font-sans">
+                            FAQ</a></li>
+                </ul>
+            </nav>
+            <div class="logo1 w-[50%] sm:w-[65%] lg:w-[30%] flex items-center justify-around">
+                <div
+                    class="logo11 flex justify-center items-center h-[50px] w-[50px] rounded-[50%] bg-[#454c5f] hover:bg-[#0adab9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300">
+                    <i class="fa-brands fa-discord text-[white] text-[20px]"></i>
+                </div>
+                <div
+                    class="logo11 flex justify-center items-center h-[50px] w-[50px] rounded-[50%] bg-[#454c5f] hover:bg-[#0adab9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300">
+                    <i class="fa-brands fa-twitter text-[white] text-[20px]"></i>
+                </div>
+                <div
+                    class="logo11 flex justify-center items-center h-[50px] w-[50px] rounded-[50%] bg-[#454c5f] hover:bg-[#0adab9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300">
+                    <i class="fa-brands fa-instagram text-[white] text-[20px]"></i>
+                </div>
+                <button type="button" id="but1"
+                    class="tracking-[2px] font-semibold w-[200px] h-[55px] rounded-[10px] bg-[#0adab9] hidden sm:block  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300">Get
+                    Whitepaper</button>
+            </div>
+        </div>
+
+        <div class="text xl:absolute left-[335px] top-[100px]  ms-[20px] mt-[7vw]" data-aos="zoom-in-down">
+            <p class="text-[#0adab9] text-[5vw] xl:text-[30px] font-semibold">Welcome to NFT Lottery</p>
+            <p
+                class="text-[white] text-[10vw] xl:text-[67px] font-bold tracking-[2px] sm:leading-[12vw] xl:leading-[90px]">
+                Play NFTLOTTY <br> to Win NFT
+                Prizes</p>
+            <p class="text-[#bec5d5] text-[20px] mt-2">Honesty and transparency you’ve never seen before!</p> <br>
+            <button type="button" id="but2"
+                class="tracking-[2px] font-semibold w-[300px] h-[55px] rounded-[10px] bg-[#0adab9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300"><i
+                    class="fa-brands fa-discord text-[20px]"></i> JOIN OUR DISCORD</button>
+        </div>
+    </header>
+
+    <!-- section 1 -->
+
+    <div class="a bg-[#1a1f2c] flex justify-center xl:pb-[5vw] pb-[4vw] sm:pb-[5vw]">
+        <div class="a1 xl:w-[67%]">
+            <h2 class="text-center text-[#0adab9] text-[4vw] xl:mt-[0px] mt-[5vw] xl:text-[1.8vw] font-[700] xl:font-[500]"
+                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                NFTLOTTY In 3 Steps</h2>
+            <h1 class="xl:text-[2.6vw] text-[8vw] text-center text-[white] font-[600]" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">How to Play the NFTPO</h1>
+            <p class="text-[#bec5d5] xl:text-[16px] text-[12px] mt-2 text-center" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">Decentra-Lotto is a decentralised
+                cryptocurrency lottery</p>
+
+            <div class="a11 flex flex-col md:flex-row xl:justify-around">
+                <div class="aa flex flex-wrap justify-center mt-[7vw] xl:mt-[2vw] sm:flex-col sm:items-center"
+                    data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="aaa xl:w-[80%] xl:ms-[75px] flex items-center">
+                        <div class="aaa1 h-[40px] w-[40px] rounded-[50%] bg-[#0adab9] flex justify-center items-center">
+                            <p class="font-[600]">01</p>
+                        </div>
+                        <div class="aaa2">
+                            <h2 class="text-[white] text-[25px] font-[500] xl:ms-[10px]">Connet Wallet</h2>
+                        </div>
+                    </div><br>
+                    <div class="aaa3 mt-[5vw] sm:mt-[0px]">
+                        <img src="/assets/img1.png" class="xl:w-[90%] hover:scale-[0.9] transition-[0.7]" alt="">
+                    </div>
+                </div>
+                <div class="aa flex flex-wrap justify-center mt-[7vw] xl:mt-[2vw] sm:flex-col sm:items-center"
+                    data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="aaa xl:w-[80%] xl:ms-[75px] flex items-center">
+                        <div class="aaa1 h-[40px] w-[40px] rounded-[50%] bg-[#0adab9] flex justify-center items-center">
+                            <p class="font-[600]">02</p>
+                        </div>
+                        <div class="aaa2">
+                            <h2 class="text-[white] text-[25px] font-[500] xl:ms-[10px]">Connet Wallet</h2>
+                        </div>
+                    </div><br>
+                    <div class="aaa3 mt-[5vw] sm:mt-[0px]">
+                        <img src="/assets/img2.png" class="xl:w-[90%] hover:scale-[0.9] transition-[0.7]" alt="">
+                    </div>
+                </div>
+                <div class="aa flex flex-wrap justify-center mt-[7vw] xl:mt-[2vw] sm:flex-col sm:items-center"
+                    data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="aaa xl:w-[80%] xl:ms-[75px] flex items-center">
+                        <div class="aaa1 h-[40px] w-[40px] rounded-[50%] bg-[#0adab9] flex justify-center items-center">
+                            <p class="font-[600]">03</p>
+                        </div>
+                        <div class="aaa2">
+                            <h2 class="text-[white] text-[25px] font-[500] xl:ms-[10px]">Connet Wallet</h2>
+                        </div>
+                    </div><br>
+                    <div class="aaa3 mt-[5vw] sm:mt-[0px]">
+                        <img src="/assets/img3.png" class="xl:w-[90%] hover:scale-[0.9] transition-[0.7]" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section-2 -->
+
+    <div class="b bg-[#1e2433] flex justify-center xl:pt-[4vw] xl:pb-[2vw]">
+        <div class="b1 xl:w-[67%] w-[100%] xl:grid grid-cols-2 flex-col lg:flex-row" data-aos="fade-down"
+            data-aos-easing="linear" data-aos-duration="1500">
+            <div class="b11 w-[100%] grid grid-2 xl:grid grid-cols-2 h-[500px] xl:h-[800px]">
+                <marquee behavior="scroll" direction="down" scrollamount="10">
+                    <div class="b111 grid gap-4 overflow">
+                        <img src="/assets/1.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/7.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/3.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/8.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/5.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/6.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                    </div>
+                </marquee>
+                <marquee behavior="scroll" direction="up" scrollamount="10">
+                    <div class="b112 grid gap-4 ">
+                        <img src="/assets/2.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/8.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/4.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/10.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                        <img src="/assets/11.png"
+                            class="xl:h-[280px] xl:w-[280px] sm:h-[280px] sm:w-[280px] h-[200px] w-[180px]" alt="">
+                    </div>
+                </marquee>
+            </div>
+            <div class="b12 flex flex-col justify-center pt-[10vw] pb-[8vw] ms-[5px]">
+                <p class="text-[#0adab9] text-[5vw] xl:text-[30px] font-semibold">Play & Win, Stake & earn!</p>
+                <h1 class="xl:text-[2.6vw] text-[8vw] xl:leading-[3vw] xl:mt-[1vw] text-[white] font-[600]">NFTLOTTY NFT
+                    Lottery Platform</h1>
+                <p class="text-[#bec5d5] xl:text-[18px] text-[12px] mt-2">Nftlotty is a Web3 next-generation lottery
+                    platform that connects into the Metaverse and removes declining jackpots, restricted security,
+                    lengthy payments, and region-based draws. It uses blockchain technology to allow decentralized
+                    operations with great gains, transparency, privacy, security, and unity for global players.</p>
+
+                <p class="text-[#bec5d5] xl:text-[18px] text-[12px] mt-2 xl:mt-[15px]">Nftlotty NFT gives holders the
+                    chance to
+                    profit from the worldwide lottery shift. Nftlotty NFT collection has 7,777 randomly created ERC-721
+                    token standards with information. Each NFT gives investors a share in Metaverse's largest lottery
+                    platform and a lifelong passive income. Non-fungible Nftlotty NFTs aren't interchangeable. Unique
+                    Nftlotty NFTs.</p>
+                <br>
+                <button type="button" id="but2"
+                    class="tracking-[2px] font-semibold w-[300px] h-[55px] rounded-[10px] bg-[#0adab9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300"><i
+                        class="fa-brands fa-discord text-[20px]"></i> JOIN OUR DISCORD</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 3 -->
+
+    <div class="c bg-[#1a1f2c] flex flex-wrap justify-center pb-[7vw]">
+        <div class="c1 pt-[5vw] xl:pt-[5vw] xl:pb-[2vw] w-[100%]">
+            <h1 class="xl:text-[3vw] text-[10vw] text-center text-[white]" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="1500">Utility</h1>
+            <p class="text-[#bec5d5] xl:text-[18px] text-center text-[12px] mt-2 xl:mt-[15px]" data-aos="fade-down"
+                data-aos-easing="linear" data-aos-duration="1500">Nftlotty NFT offers
+                real-world, game-changing <br> advantages that maximize your investment.</p>
+        </div>
+        <div
+            class="c2 xl:w-[67%] flex sm:flex-col sm:items-center sm:justify-center md:flex-row xl:grid grid-cols-4 gap-4 flex-col items-center">
+            <div class="cc sm:w-[60%] w-[80%] p-[5vw] md:w-[100%] sm:p-[5vw] mt-[5vw] xl:mt-[0vw] bg-[#1e2433] xl:p-[1vw] rounded-[12px] hover:-translate-y-1 hover:scale-[0.9] shadow-md shadow-[black]"
+                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="img flex justify-center p-[1vw]">
+                    <div
+                        class="imgg xl:h-[150px] xl:w-[150px] flex justify-center items-center border border-[#01de8e] rounded-[50%]">
+                        <img src="/assets/utility_icon.png" alt="">
+                    </div>
+                </div>
+                <h2 class="text-center text-[white] text-[25px] font-[700]">Revenue Stream</h2>
+                <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">Nftlotty distributes
+                    proceeds from lottery ticket sales to NFT holders. NFT rarity determines holders' income share.</p>
+            </div>
+            <div class="cc sm:w-[60%] w-[80%] p-[5vw] md:w-[100%] sm:p-[5vw] mt-[5vw] xl:mt-[0vw] bg-[#1e2433] xl:p-[1vw] rounded-[12px] hover:-translate-y-1 hover:scale-[0.9] shadow-md shadow-[black]"
+                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="img flex justify-center p-[1vw]">
+                    <div
+                        class="imgg xl:h-[150px] xl:w-[150px] flex justify-center items-center border border-[#01de8e] rounded-[50%]">
+                        <img src="/assets/utility_icon2.png" alt="">
+                    </div>
+                </div>
+                <h2 class="text-center text-[white] text-[25px] font-[700]">Staking</h2>
+                <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">Nftlotty distributes
+                    proceeds from lottery ticket sales to NFT holders. NFT rarity determines holders' income share.</p>
+            </div>
+            <div class="cc sm:w-[60%] w-[80%] p-[5vw] md:w-[100%] sm:p-[5vw] mt-[5vw] xl:mt-[0vw] bg-[#1e2433] xl:p-[1vw] rounded-[12px] hover:-translate-y-1 hover:scale-[0.9] shadow-md shadow-[black]"
+                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="img flex justify-center p-[1vw]">
+                    <div
+                        class="imgg xl:h-[150px] xl:w-[150px] flex justify-center items-center border border-[#01de8e] rounded-[50%]">
+                        <img src="/assets/utility_icon3.png" alt="">
+                    </div>
+                </div>
+                <h2 class="text-center text-[white] text-[25px] font-[700]">Token</h2>
+                <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">Nftlotty distributes
+                    proceeds from lottery ticket sales to NFT holders. NFT rarity determines holders' income share.</p>
+            </div>
+            <div class="cc sm:w-[60%] w-[80%] p-[5vw] md:w-[100%] sm:p-[5vw] mt-[5vw] xl:mt-[0vw] bg-[#1e2433] xl:p-[1vw] rounded-[12px] hover:-translate-y-1 hover:scale-[0.9] shadow-md shadow-[black]"
+                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="img flex justify-center p-[1vw]">
+                    <div
+                        class="imgg xl:h-[150px] xl:w-[150px] flex justify-center items-center border border-[#01de8e] rounded-[50%]">
+                        <img src="/assets/utility_icon4.png" alt="">
+                    </div>
+                </div>
+                <h2 class="text-center text-[white] text-[25px] font-[700]">Jackpot</h2>
+                <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">Nftlotty distributes
+                    proceeds from lottery ticket sales to NFT holders. NFT rarity determines holders' income share.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 4 -->
+
+    <div class="d bg-[#1a1f2c] flex flex-wrap justify-center pb-[7vw]">
+        <div class="d1 w-[100%]">
+            <h1 class="xl:text-[3vw] text-[10vw] text-center text-[white]" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="1500">Rarity</h1>
+            <p class="text-[#bec5d5] xl:text-[18px] xl:pb-[2vw] text-center text-[12px] mt-2 xl:mt-[15px]"
+                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Each of 7,777 Nftlotty NFTs is
+                common, uncommon, rare, epic, or <br> legendary. Each category's proportion determines the holder's <br>
+                revenue share.</p>
+        </div>
+        <div class="d2 w-[67%] xl:grid grid-cols-6">
+            <div class="d21 xl:col-span-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <img src="/assets/7.png" alt="">
+            </div>
+            <div class="d22 xl:col-span-4 grid xl:grid-cols-4 sm:grid-cols-2 md:grid-cols-4 grid-cols-1 gap-4"
+                data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div
+                    class="dd rounded-[10px] bg-[#1e2433] xl:h-[200px] xl:w-[200px] p-[10px] border border-[#454c5f] mt-[2vw] md:mt-[0vw] hover:shadow-md hover:shadow-[black] hover:-translate-y-1">
+                    <p class="text-[#0adab9] text-center xl:mt-[1vw]">Background</p><br>
+                    <h2 class="text-[white] text-[25px] font-[600] text-center">Army Green</h2>
+                    <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">12% have this
+                        trait</p>
+                </div>
+                <div
+                    class="dd rounded-[10px] bg-[#1e2433] xl:h-[200px] xl:w-[200px] p-[10px] border border-[#454c5f] mt-[2vw] md:mt-[0vw] hover:shadow-md hover:shadow-[black] hover:-translate-y-1">
+                    <p class="text-[#0adab9] text-center xl:mt-[1vw]">Clothes</p><br>
+                    <h2 class="text-[white] text-[25px] font-[600] text-center">Work Vest</h2>
+                    <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">2% have this
+                        trait</p>
+                </div>
+                <div class="dd rounded-[10px] bg-[#1e2433] xl:h-[200px] xl:w-[200px] p-[10px] border border-[#454c5f] hover:shadow-md hover:shadow-[black] hover:-translate-y-1">
+                    <p class="text-[#0adab9] text-center xl:mt-[1vw]">Earring</p><br>
+                    <h2 class="text-[white] text-[25px] font-[600] text-center">gold stud</h2>
+                    <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">4% have this
+                        trait</p>
+                </div>
+                <div class="dd rounded-[10px] bg-[#1e2433] xl:h-[200px] xl:w-[200px] p-[10px] border border-[#454c5f] hover:shadow-md hover:shadow-[black] hover:-translate-y-1">
+                    <p class="text-[#0adab9] text-center xl:mt-[1vw]">Eys</p><br>
+                    <h2 class="text-[white] text-[25px] font-[600] text-center">Sad</h2>
+                    <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">6% have this
+                        trait</p>
+                </div>
+                <div class="dd rounded-[10px] bg-[#1e2433] xl:h-[200px] xl:w-[200px] p-[10px] border border-[#454c5f] hover:shadow-md hover:shadow-[black] hover:-translate-y-1">
+                    <p class="text-[#0adab9] text-center xl:mt-[1vw]">Fur</p><br>
+                    <h2 class="text-[white] text-[25px] font-[600] text-center">Solid Gold</h2>
+                    <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">0.46% have this
+                        trait</p>
+                </div>
+                <div class="dd rounded-[10px] bg-[#1e2433] xl:h-[200px] xl:w-[200px] p-[10px] border border-[#454c5f] hover:shadow-md hover:shadow-[black] hover:-translate-y-1">
+                    <p class="text-[#0adab9] text-center xl:mt-[1vw]">Hat</p><br>
+                    <h2 class="text-[white] text-[25px] font-[600] text-center">Bandana Blue</h2>
+                    <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">0.89% have this
+                        trait</p>
+                </div>
+                <div class="dd rounded-[10px] bg-[#1e2433] xl:h-[200px] xl:w-[200px] p-[10px] border border-[#454c5f] hover:shadow-md hover:shadow-[black] hover:-translate-y-1">
+                    <p class="text-[#0adab9] text-center xl:mt-[1vw]">Mouth</p><br>
+                    <h2 class="text-[white] text-[25px] font-[600] text-center">Rage</h2>
+                    <p class="text-[#bec5d5] xl:text-[16px] text-center text-[12px] mt-2 xl:mt-[15px]">3% have this
+                        trait</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 5 -->
+
+    <div class="e bg-[#1a1f2c] pb-[2vw]">
+        <p class="text-[#0adab9] text-center text-[5vw] xl:text-[30px] font-semibold" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Meet Our</p>
+        <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+            class="xl:text-[2.6vw] text-center text-[8vw] sm:leading-[10vw] xl:leading-[3vw] xl:mt-[1vw] text-[white] font-[600]">
+            Team
+            Members of <br> the Project</h1>
+        <p data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" class="text-[#bec5d5] xl:mt-[1vw] md:text-[16px] text-[10px] mt-2 text-center">Nftlottys team includes
+            successful artists,
+            entrepreneurs, marketing geniuses, <br> blockchain specialists, and financial professionals. These members
+            have
+            the <br> technologies and methods to drive Nftlotty's goal.</p>
+    </div>
+
+    <!-- section 6 -->
+
+    <div class="f xl:flex xl:justify-center pb-[5vw] bg-[#1a1f2c] hidden md:block">
+        <div class="f1 xl:w-[67%]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <swiper-container class="mySwiper" watch-slides-progress="true" slides-per-view="4">
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/11.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Ralph Edwards</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[4.4vw]">3D Art</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/10.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Dianne Russell</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[2.7vw]">Digital Marketer</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/8.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Savannah Nguyen</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[3.7vw]">Product Owner</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/8.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Suresh Panchal</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[4.4vw]">CMO</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/11.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Ralph Edwards</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[4.4vw]">3D Art</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/10.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Dianne Russell</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[2.7vw]">Digital Marketer</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/8.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Savannah Nguyen</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[3.7vw]">Product Owner</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/8.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Suresh Panchal</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[4.4vw]">CMO</p>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="ff">
+                        <div class="img">
+                            <img src="/assets/11.png" class="rounded-[50%]" alt="">
+                        </div>
+                        <h2 class="text-[white] font-[600] xl:text-[25px] xl:ms-[1vw] xl:mt-[1vw]">Ralph Edwards</h2>
+                        <p class="text-[#0adab9] font-[700] xl:ms-[4.4vw]">3D Art</p>
+                    </div>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+    </div>
+
+    <!-- section 7 -->
+
+    <div class="e bg-[#1a1f2c] pb-[2vw]">
+        <p class="text-[#0adab9] text-center text-[5vw] xl:text-[30px] font-semibold" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Questions & Answers</p>
+        <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+            class="xl:text-[2.6vw] text-center text-[8vw] sm:leading-[10vw] xl:leading-[3vw] xl:mt-[1vw] text-[white] font-[600]">
+            Frequently Asked <br> Questions</h1>
+    </div>
+
+
+    <!-- section 8 -->
+
+
+    <div class="f bg-[#1a1f2c] flex justify-center">
+        <div class="f1 w-[95%] xl:w-[67%] xl:flex xl:justify-evenly">
+            <div class="f11 flex flex-col sm:justify-center sm:flex-col sm:items-center">
+                <main>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-item-header">
+                                <span
+                                    class="accordion-item-header-title text-[white] text-[25px] hover:text-[#0adab9]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">What
+                                    is Nftlotty
+                                    NFT</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-down accordion-item-header-icon text-[white]">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="accordion-item-description-wrapper">
+                                <div class="accordion-item-description">
+                                    <hr>
+                                    <p class="text-[#bec5d5] text-[14px]">Credit cards typically have a credit limit,
+                                        which is the maximum amount that the
+                                        cardholder can borrow at any given time. The cardholder is responsible for
+                                        making
+                                        payments on time, and if they do not, they may incur fees or penalties, as well
+                                        as
+                                        damage to their credit score.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item xl:mt-[0.5vw]">
+                            <div class="accordion-item-header">
+                                <span data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                                    class="accordion-item-header-title text-[white] text-[25px] hover:text-[#0adab9]">When
+                                    can I buy Nftlotty NFTs?</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-down accordion-item-header-icon text-[white]">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="accordion-item-description-wrapper">
+                                <div class="accordion-item-description">
+                                    <hr>
+                                    <p class="text-[#bec5d5] text-[14px]">This is the description for Accordion Item 2.
+                                        This is the description for Accordion
+                                        Item
+                                        2. This is the description for Accordion Item 2. This is the description for
+                                        Accordion
+                                        Item 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item xl:mt-[0.5vw]">
+                            <div class="accordion-item-header">
+                                <span data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                                    class="accordion-item-header-title text-[white] text-[25px] hover:text-[#0adab9]">How
+                                    to become eligible for buying?</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-down accordion-item-header-icon text-[white]">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="accordion-item-description-wrapper">
+                                <div class="accordion-item-description">
+                                    <hr>
+                                    <p class="text-[#bec5d5] text-[14px]">This is the description for Accordion Item 3.
+                                        This is the description for Accordion
+                                        Item
+                                        3. This is the description for Accordion Item 3. This is the description for
+                                        Accordion
+                                        Item 3. This is the description for Accordion Item 3. This is the description
+                                        for
+                                        Accordion Item 3. This is the description for Accordion Item 3.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <main class="xl:mt-[1vw] mt-[2.2vw] md:mt-[0vw]">
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <div class="accordion-item-header">
+                                <span data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                                    class="accordion-item-header-title text-[white] text-[25px] text-[white] text-[25px] hover:text-[#0adab9]">Where
+                                    can I buy Nftlotty NFTs?</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-down accordion-item-header-icon text-[white]">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="accordion-item-description-wrapper">
+                                <div class="accordion-item-description">
+                                    <hr>
+                                    <p class="text-[#bec5d5] text-[14px]">This is the description for Accordion Item 1.
+                                        This is the description for Accordion
+                                        Item
+                                        1.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item xl:mt-[0.5vw]">
+                            <div class="accordion-item-header">
+                                <span data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                                    class="accordion-item-header-title text-[white] text-[25px] hover:text-[#0adab9]">What
+                                    is the price of a Nftlotty NFT?</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-down accordion-item-header-icon text-[white]">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="accordion-item-description-wrapper">
+                                <div class="accordion-item-description">
+                                    <hr>
+                                    <p class="text-[#bec5d5] text-[14px]">This is the description for Accordion Item 2.
+                                        This is the description for Accordion
+                                        Item
+                                        2. This is the description for Accordion Item 2. This is the description for
+                                        Accordion
+                                        Item 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item xl:mt-[0.5vw]">
+                            <div class="accordion-item-header">
+                                <span data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                                    class="accordion-item-header-title text-[white] text-[25px] hover:text-[#0adab9]">How
+                                    many can I buy?</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    class="lucide lucide-chevron-down accordion-item-header-icon text-[white]">
+                                    <path d="m6 9 6 6 6-6" />
+                                </svg>
+                            </div>
+                            <div class="accordion-item-description-wrapper">
+                                <div class="accordion-item-description">
+                                    <hr>
+                                    <p class="text-[#bec5d5] text-[14px]">This is the description for Accordion Item 3.
+                                        This is the description for Accordion
+                                        Item
+                                        3. This is the description for Accordion Item 3. This is the description for
+                                        Accordion
+                                        Item 3. This is the description for Accordion Item 3. This is the description
+                                        for
+                                        Accordion Item 3. This is the description for Accordion Item 3.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+            <div class="f12 hidden md:block md:flex md:justify-center md:items-center">
+                <img src="/assets/faq.png" class="h-[80%]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- section 9 -->
+
+    <div class="g xl:pb-[4vw] bg-[#1a1f2c] flex justify-center">
+        <div
+            class="g1 xl:w-[67%] sm:p-[5vw] xl:p-[2vw] xl:pb-[4vw] bg-[#0adab9] rounded-[10px] mt-[4vw] sm:rounded-[50px] flex justify-center flex-col items-center pb-[2vw]">
+            <i class="fa-brands fa-discord text-[40px] mt-[2.5vw]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"></i>
+            <h1 class="sm:text-[50px] text-[38px] font-[600] xl:mt-[1vw]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Join Our Community</h1>
+            <button type="button" id="but2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"
+                class="tracking-[2px] font-semibold w-[300px] h-[55px] rounded-[10px] text-[white] xl:mt-[1vw]  bg-[#202636] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300"><i
+                    class="fa-brands fa-discord text-[20px]"></i> JOIN OUR DISCORD</button>
+        </div>
+    </div>
+
+    <!-- section 10 -->
+
+    <div class="h bg-[#1a1f2c] flex justify-center pb-[2vw]">
+        <div class="h1 xl:w-[67%]">
+            <div class="h1logo flex justify-center mt-[5vw] sm:mt-[2vw]">
+                <img src="/assets/logo (1).png" alt="" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            </div>
+            <div class="h1text flex justify-center">
+                <p class="text-[#bec5d5] text-center sm:text-[12px] md:text-[14px] text-[10px] lg:text-[16px] mt-[1vw]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Nftlotty NFT gives holders a chance to profit from the worldwide
+                    lottery market change. Nftlotty's NFT collection <br>includes 7,777 ERC-721 token standards, each with
+                    its unique information. Each NFT gives investors a share in <br> Metaverse's largest lottery platform and
+                    a passive income for life. Nftlotty NFTs are non-fungible; they can't be <br> exchanged. Each NFT is 100%
+                    unique.
+                </p>
+            </div>
+            <div class="h1icon flex justify-center mt-[2vw] xl:mt-[1vw]" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="h1icons flex xl:w-[20%] w-[60%] sm:w-[40%] justify-evenly">
+                    <div
+                    class="logo11 flex justify-center items-center h-[50px] w-[50px] rounded-[50%] bg-[#454c5f] hover:bg-[#0adab9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300">
+                    <i class="fa-brands fa-discord text-[white] text-[20px]"></i>
+                </div>
+                <div
+                    class="logo11 flex justify-center items-center h-[50px] w-[50px] rounded-[50%] bg-[#454c5f] hover:bg-[#0adab9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300">
+                    <i class="fa-brands fa-twitter text-[white] text-[20px]"></i>
+                </div>
+                <div
+                    class="logo11 flex justify-center items-center h-[50px] w-[50px] rounded-[50%] bg-[#454c5f] hover:bg-[#0adab9] transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 hover:bg-indigo-500 hover:text-[white] duration-300">
+                    <i class="fa-brands fa-instagram text-[white] text-[20px]"></i>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- section 11 -->
+
+    <div class="i bg-[#1a1f2c] flex justify-center">
+        <div class="i1 xl:w-[67%] sm:w-[100%] border border-[#454c5f] flex justify-between p-[2vw]">
+            <div class="dc1">
+                <span class="text-[white] sm:text-[14px] lg:text-[20px] text-[18px]">This template is made by</span> 
+                <span class="text-[#0adab9] font-[600] sm:text-[14px] xl:text-[22px] text-[20px] hover:text-indigo-500 cursor-pointer">CHIRAG DEVMURARI</span>
+            </div>
+            <div class="dc2">
+                <p class="text-[white] text-[20px] font-[700] lg:text-[22px] sm:text-[14px] transition ease-in-out delay-150 cursor-pointer hover:-translate-y-1 hover:scale-105 hover:text-indigo-500 hover:text-[white] duration-300">THANK YOU   <i class="fa-solid fa-heart text-[#0adab9] hover:text-[red]"></i></p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<script>
+    $(document).ready(function(){
+        $(window).on("load",function(){
+            $("#dcyt").fadeOut(3000);
+        })
+    })
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script>
+    AOS.init();
+</script>
+
+<script>
+    const rainContainer = document.querySelector(".rain");
+    const numberOfDrops = 200;
+
+    const colors = [
+        "#FF0000", // Red
+        "#FFA500", // Orange
+        "#FFFF00", // Yellow
+        "#008000", // Green
+        "#0000FF", // Blue
+        "#4B0082", // Indigo
+        "#EE82EE"  // Violet
+    ];
+
+    const layers = [
+        { className: 'layer1', size: '2px', duration: '10s' },
+        { className: 'layer2', size: '4px', duration: '8s' },
+        { className: 'layer3', size: '6px', duration: '6s' },
+        { className: 'layer4', size: '8px', duration: '4s' }
+    ];
+
+    for (let i = 0; i < numberOfDrops; i++) {
+        const drop = document.createElement("div");
+        drop.classList.add("raindrop");
+
+        // Randomize position, delay, and color
+        drop.style.left = `${Math.random() * 100}%`;
+        drop.style.animationDelay = `${Math.random() * 5}s`;
+        drop.style.background = colors[Math.floor(Math.random() * colors.length)];
+
+        // Assign a random layer class and size based on layer
+        const layer = layers[Math.floor(Math.random() * layers.length)];
+        drop.classList.add(layer.className);
+        drop.style.width = layer.size;
+        drop.style.height = layer.size;
+
+        rainContainer.appendChild(drop);
+    }
+
+</script>
+
+<script>
+    document.querySelectorAll(".accordion-item").forEach((item) => {
+        item.querySelector(".accordion-item-header").addEventListener("click", () => {
+            item.classList.toggle("open");
+        });
+    });
+
+</script>
+
+</html>

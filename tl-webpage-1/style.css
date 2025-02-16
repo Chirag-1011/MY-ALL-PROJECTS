@@ -1,0 +1,206 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.img3{
+    animation: dc;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes dc{
+    50%{
+        transform: scale(1.1);
+    }
+}
+.img4{
+    animation: dc1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+@keyframes dc1{
+    50%{
+        transform: scale(1.3);
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: scale(1);
+        transform: rotate(0deg);
+    }
+}
+.img5{
+    animation: dc1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.img6{
+    animation: dc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+.img7{
+    animation: dc;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jacquard+24&family=Space+Grotesk:wght@300..700&display=swap');
+
+
+.rain {
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+
+@keyframes drop {
+  0% {
+    transform: translateY(-100vh) translateX(0);
+  }
+  100% {
+    transform: translateY(100vh) translateX(var(--translateX, 0));
+  }
+}
+
+.raindrop {
+  position: absolute;
+  top: -10vh; /* Start off-screen */
+  background: #fff;
+  animation: drop linear infinite;
+}
+
+.layer1 {
+  --translateX: -10px;
+  animation-duration: 10s;
+}
+
+.layer2 {
+  --translateX: -5px;
+  animation-duration: 8s;
+}
+
+.layer3 {
+  --translateX: 5px;
+  animation-duration: 6s;
+}
+
+.layer4 {
+  --translateX: 10px;
+  animation-duration: 4s;
+}
+
+
+:root {
+  --border-color: #cccccc;
+  --background-color: #2d364d;
+  --transition: all 0.2s ease;
+}
+
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+}
+
+.accordion .accordion-item {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  visibility: visible;
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper hr {
+  visibility: visible;
+}
+
+.accordion .accordion-item .accordion-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-title {
+  font-weight: 600;
+}
+
+.accordion .accordion-item .accordion-item-header .accordion-item-header-icon {
+  transition: var(--transition);
+}
+
+.accordion
+  .accordion-item.open
+  .accordion-item-header
+  .accordion-item-header-icon {
+  transform: rotate(-180deg);
+}
+
+.accordion .accordion-item .accordion-item-description-wrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  overflow: hidden;
+  transition: var(--transition);
+}
+
+.accordion .accordion-item.open .accordion-item-description-wrapper {
+  grid-template-rows: 1fr;
+}
+
+.accordion
+  .accordion-item
+  .accordion-item-description-wrapper
+  .accordion-item-description {
+  min-height: 0;
+}
+
+.accordion
+  .accordion-item
+  .accordion-item-description-wrapper
+  .accordion-item-description
+  p {
+  padding: 10px;
+  line-height: 1.5;
+}
+
+.g1{
+  background-image: url(/assets/call_to_action.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.main11{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+
+}
+.aaa1{
+  position: absolute;
+  top: 38%;
+  left: 42%;
+}
+

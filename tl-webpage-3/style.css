@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    border: 1px solid #fefaf3;
+    background-color: #fefaf3;
+    background-image: url(assets/headerBg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sub{
+    background-color: rgb(255,255,255);
+    border-radius: 20px;
+}
+#but1{
+    color: white;
+    background: linear-gradient(to right,#f48600,#f74300);
+    border-radius: 10px;
+    transition: 0.5s;
+}
+#but1:hover{
+    background: linear-gradient(to left,#f48600,#f74300);
+}
+#but2{
+    color: white;
+    background: linear-gradient(to right,#f48600,#f74300);
+    transition: 0.5s;
+}
+#but2:hover{
+    background: linear-gradient(to left,#f48600,#f74300);
+}
+.bbb:hover{
+    background: linear-gradient(to left,#f48600,#f74300);
+    border: none;
+}
+.bbb:hover #arrow{
+    color: white;
+}
+.e{
+    background-image: url(/assets/SpicalServices.png);
+}
+.i{
+    border-top: 1px solid white;
+}
